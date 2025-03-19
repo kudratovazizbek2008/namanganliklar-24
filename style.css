@@ -73,7 +73,7 @@
     max-width: 1200px;
     width: 100%;
     border: 1px solid black;
-    margin-top: 18px;
+    margin-top: 12px;
 }
 
 .header-left {
@@ -623,5 +623,15 @@ grid-template-columns: 1fr 1fr;
     .hard_1_1 {
         flex-direction: column;
         text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .rates {
+        justify-content: center;
     }
 }

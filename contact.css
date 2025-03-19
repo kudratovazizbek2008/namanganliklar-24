@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    justify-content: center;
+    margin: auto;
+    background-color: #F6F6F9;
+    padding-bottom: 25px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.header_logo_text {
+    background-color: #1E96C8;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header__text {
+    color: #295091;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0;
+}
+
+.header__text_2 {
+    margin-right: 20px;
+    color: #797979;
+}
+
+.telegram_logo {
+    width: 20px;
+    height: 20px;
+
+}
+
+.header__text_2 {
+    gap: 17px;
+}
+
+.header__social {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffffff;
+    gap: 24px;
+    margin-top: 49px;
+    flex-wrap: wrap;
+    color: #515151;
+    padding: 25px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 100%;
+
+}
+
+.img____logo {
+    max-width: 1200px;
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 12px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header_left_inner {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.header_input {
+    width: 127px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 15px
+}
+
+::placeholder {
+    color: #CCCCCC;
+}
+
+.header_search {
+    padding: 9px;
+    background-color: #FFFFFF;
+
+}
+
+.text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #535353;
+}
+
+
+.header_menu {
+    padding: 11px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact > h2 {
+    margin-top: 17px;
+}
+
+.contact {
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact_form {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #888888;
+    gap: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+.contact_input {
+    border-radius: 5px;
+}
+
+.contact_form > input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #888888;
+    padding: 15px;
+}
+
+.main_input {
+    color: #888888;
+    width: 100%;
+    height: 307px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.main_textarea {
+    max-width: 100%;
+    width: 100%;
+    height: 50px;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    color: #888888;
+    border: 1px solid #888888;
+    border-radius: 5px;
+}
+
+.main_img {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+
+.input_file {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.main_span {
+    padding: 16px;
+    margin-top: 15px;
+}
+
+.header__span {
+    color: black;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 100%;
+
+}
+
+.main__textarea {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main__input {
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.main_button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    max-width: 221px;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    background-color: #295093;
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.contact_form_1 {
+    border-radius: 5px;
+    border: 2px solid #BCC3CD;
+    padding: 23px;
+    -webkit-box-shadow: -8px 9px 8px -1px rgba(41, 80, 145, 0.2);
+    -moz-box-shadow: -8px 9px 8px -1px rgba(41, 80, 145, 0.2);
+    box-shadow: -8px 9px 8px -1px rgba(41, 80, 145, 0.2);
+    margin-top: 55px;
+    margin-left: 90px;
+    max-width: 800px;
+    width: 100%;
+
+}
+
+.contact_img {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+   display: flex;
+    margin-left: auto;
+}
+
+.contact_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #888888;
+
+}
+
+.contact__text {
+    font-size: 16px;
+    color: #888888;
+    margin-top: 30px;
+}
+
+.contact__text_email {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 100%;
+    color: #888888;
+    display: flex;
+    gap: 130px;
+    margin-top: 10px;
+}
+
+.contact__text_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact__text_2 {
+    margin-top: 26px;
+}
+
+.contact__button_1 {
+
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+.button {
+    background-color: #295091;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    gap: 6px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    margin-top: 17px;
+}
+
+.contact_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_finish {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact__finish {
+    margin-top: 18px;
+    gap: 13px
+
+}
+
+.contact_1 {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+@media screen  and (max-width: 854px) {
+    .contact_1 {
+        flex-direction: column;
+    }
+
+    .contact {
+        max-width: 100%;
+    }
+
+    .contact_form_1 {
+        max-width: 100%;
+    }
+}
+.footer{
+    background-color: #295093;
+    height: 225px;
+    margin-top: 38px;
+}
+.footer_top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+
+}
+.footer_text{
+    max-width: 194px;
+    width: 100%;
+    background-color: #133C82;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 11px 9px;
+    border: none;
+}
+.footer__text{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: 100px;
+
+}
+.footer_button{
+    background-color: #ffffff;
+    color: #295093;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 9px;
+    margin-left: 20px;
+    gap: 6px;
+    cursor: pointer;
+
+
+}
+.footer_line{
+    max-width: 1000px;
+    width: 100%;
+    height: 4px;
+    background-color: #133C82;
+    margin: 0 90px;
+
+}
+.footer_span{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 12px 90px 13px ;
+
+}
+.footer___text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    width: 365px;
+    margin-top: 12px;
+}
+.footer____text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.footer_end_2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer_end_text{
+    color: white;
+    font-size: 14px;
+    margin: 0 auto;
+    gap: 16px;
+
+}
+.footer_end_text_1{
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer_end_text_2{
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer_end_text_3{
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.footer_end{
+    background-color: #133C82;
+    max-width: 1200px;
+    width: 100%;
+    height: 3px;
+}
+.footer_li{
+    margin-top: 18px;
+    margin-left: 500px;
+}
+.footer_text_p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+.footer_p{
+    margin-top: 18px;
+}
