@@ -372,6 +372,7 @@ input[type="file"] {
     font-size: 16px;
     line-height: 100%;
     border-radius: 5px;
+    gap: 10px;
 }
 .text_footer{
     font-weight: 500;
@@ -395,6 +396,7 @@ input[type="file"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 .footer__div{
     display: flex;
@@ -474,4 +476,20 @@ input[type="file"] {
     .contact_img{
         margin-right: 60px;
     }
+}
+@media screen and (max-width: 990px) {
+    .footer__text{
+        flex-direction: column;
+    }
+    .text_footer{
+        flex-direction: column;
+    }
+   .footer__div{
+       flex-direction: column;
+   }
+   .footer__div_p{
+       flex-direction: column;
+       margin-left: 350px;
+       gap: 40px;
+   }
 }
